@@ -35,7 +35,7 @@ task buildDocker(type: Docker) {
   baseImage = 'develar/java:latest'
   push = true
   tagVersion="v2"
-  tag = 'getmub/todo'
+  tag = 'bijoythomask/todo'
   addFile {
     from jar
     rename {'app.jar'}
